@@ -320,6 +320,8 @@ export default function DodgeGame() {
     }
   }, [])
 
+  
+
   return (
     <div className="w-full h-screen overflow-hidden bg-slate-950">
       <canvas ref={canvasRef} className="w-full h-full block" />
